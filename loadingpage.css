@@ -1,0 +1,56 @@
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url("pexels-pixabay-209831.jpg");
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      span {
+        color: #4caf50; /* or any other color you prefer */
+      }
+
+      .intro,
+      .features,
+      .cta {
+        margin-bottom: 50px;
+      }
+
+      .features ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .features li {
+        margin-bottom: 10px;
+      }
+
+      button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4caf50; /* or any other color you prefer */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      a{
+        color: white;
+        text-decoration: none;
+      }
+
+      button:hover {
+        background-color: #45a049; /* slightly darker shade for hover effect */
+      }
